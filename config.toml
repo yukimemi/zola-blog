@@ -12,7 +12,8 @@ highlight_code = true
 build_search_index = true
 
 # theme
-theme = "after-dark"
+# theme = "after-dark"
+theme = "even"
 taxonomies = [
   # You can enable/disable RSS
   {name = "categories", rss = true},
@@ -22,10 +23,10 @@ taxonomies = [
 
 [extra]
 # Put all your custom variables here
+even_title = "yukimemi's blog"
 
-after_dark_menu = [
+even_menu = [
   {url = "$BASE_URL", name = "Home"},
   {url = "$BASE_URL/categories", name = "Categories"},
-  {url = "$BASE_URL/tags", name = "Tags"},
-  {url = "https://google.com", name = "Google"},
+  {url = "$BASE_URL/tags", name = "Tags"}
 ]
