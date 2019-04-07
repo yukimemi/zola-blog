@@ -4,7 +4,7 @@ date = 2018-11-11T08:21:54+09:00
 draft = false
 description = "TweetDeck を見てたら、こんな Tweet が。"
 [taxonomies]
-category = [ "vim" ]
+categories = [ "vim" ]
 tags = [ "vim", "vim-packager", "plugin" ]
 +++
 

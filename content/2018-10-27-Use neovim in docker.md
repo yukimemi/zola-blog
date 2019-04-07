@@ -4,7 +4,7 @@ date = 2018-10-30T00:16:06+09:00
 draft = false
 description = "Docker の中で neovim を起動してやれば、どんな環境でも neovim が使えていいのではないか？と思い、 Dockerfile を書いてみた。"
 [taxonomies]
-category = [ "docker" ]
+categories = [ "docker" ]
 tags = [ "neovim", "docker" ]
 +++
 

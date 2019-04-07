@@ -4,7 +4,7 @@ date = 2018-06-18T01:13:17+09:00
 draft = false
 description = "vim でパッケージマネージャといえば、 Shougo/dein.vim が有名だけど、それ以外でも、 k-takata/minpac もあまり知られてないかもしれないけどシンプルで使いやすい。"
 [taxonomies]
-category = [ "vim" ]
+categories = [ "vim" ]
 tags = [ "vim", "minpac" ]
 +++
 

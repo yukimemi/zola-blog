@@ -4,7 +4,7 @@ date = 2018-08-04T20:24:32+09:00
 draft = false
 description = "Mac で Twitter アプリが消えてしまって久しい。 Chrome でいい感じに Twitter を使える方法があるみたい。"
 [taxonomies]
-category = [ "chrome" ]
+categories = [ "chrome" ]
 tags = [ "chrome", "mac", "twitter", "tweetdeck" ]
 +++
 
