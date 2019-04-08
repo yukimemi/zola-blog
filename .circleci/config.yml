@@ -1,0 +1,28 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: j1mc/docker-zola
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install git and zip
+          command: apt install -y git zip
+
+      - run:
+          name: Git clone theme
+          command: git clone https://github.com/getzola/even themes/even
+
+      - run:
+          name: Build with zola
+          command: zola build
+
+      - run:
+          name: Zip public site
+          command: zip -r public.zip public
+
+      - run:
+          name: Deploy site
+          command: 'curl -H "Content-Type: application/zip" -H "Authorization: Bearer ${NETLIFY_TOKEN}" --data-binary "@public.zip" https://api.netlify.com/api/v1/sites/yukimemi.netlify.com/deploys'
