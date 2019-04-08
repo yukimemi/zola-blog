@@ -22,7 +22,7 @@ alias tweetdeck "open -na 'Google Chrome' --args '--app=https://tweetdeck.com'"
 
 これで、ブラウザと Twitter を同時に見れる。
 
-![twitter](./twitter.png)
+![twitter](/twitter.png)
 
 他にも、PWA アプリとして Twitter を使うという方法とかもあるみたい。
 

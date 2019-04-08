@@ -13,7 +13,7 @@ vimperator と ツリー型タブ は便利で使ってたのだが、
 
 こんな感じ。
 
-![image](./20140104_231852.png)
+![image](/20140104_231852.png)
 
 コマンドラインの補完部分に、タブ表示が覆い被さっている。
 
@@ -28,7 +28,7 @@ style コマンドで、既存のcssを書き換えることが出来るみた�
 
 修正後はこんな感じ。
 
-![image](./20140104_232026.png)
+![image](/20140104_232026.png)
 
 ツリー型タブのcssのクラス名とかを調べるには、 [DOM Inspector :: Add-ons for Firefox](https://addons.mozilla.org/ja/firefox/addon/dom-inspector-6622/)
 を使用した。

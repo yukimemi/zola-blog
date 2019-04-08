@@ -25,7 +25,7 @@ bindkey '^ ' autosuggest-accept
 
 で、 `Ctrl + Space` で、補完候補が確定する。
 
-![image](./zsh-autosuggestions.png)
+![image](/zsh-autosuggestions.png)
 
 べんり。
 

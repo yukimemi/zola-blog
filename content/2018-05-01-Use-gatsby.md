@@ -15,7 +15,7 @@ starter kit にいろんなのが指定できるみたいで、 [alxshelepenok/g
 [Netlify](https://www.netlify.com/) にアカウントを作っていたら、
 README にあるように、 **Deploy to netlify** のボタンを押せば簡単に github にリポジトリ作ってくれた。めちゃかんたん。
 
-![Use Netlify](./use-netlify.png)
+![Use Netlify](/use-netlify.png)
 
 あとは、作られたリポジトリをダウンロードして、ちょこちょこ設定系を変更したらいい感じにできた。
 

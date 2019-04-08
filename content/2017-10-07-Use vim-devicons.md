@@ -104,7 +104,7 @@ let g:airline_theme = 'luna'
 
 こんな感じ。
 
-![vim-devicons](./vim-devicons_min.png)
+![vim-devicons](/vim-devicons_min.png)
 
 うーん、微妙かも・・・。
 

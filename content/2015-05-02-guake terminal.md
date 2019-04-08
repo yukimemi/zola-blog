@@ -20,19 +20,19 @@ $ sudo apt-get install guake
 
 * 全般
 
-![guake-general](./guake-general_min.png)
+![guake-general](/guake-general_min.png)
 
 * スクロール
 
-![guake-scroll](./guake-scroll_min.png)
+![guake-scroll](/guake-scroll_min.png)
 
 * 外観
 
-![guake-style](./guake-style_min.png)
+![guake-style](/guake-style_min.png)
 
 タブバーを表示しないようにして、start fullscreenにして、スクロールバーを非表示にして、透明度を下から2個目くらいにしたらちょうどいい感じ。
 
-![guake](./guake-terminal_min.png)
+![guake](/guake-terminal_min.png)
 
 あとは、fontをRicty for Powerlineにする。
 
