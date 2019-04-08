@@ -40,6 +40,174 @@ bootstrap_after = "init#after"
 `init.vim` 内で、 `before.vim` と `after.vim` を呼び出すように設定し、それぞれの設定ファイルで設定を行なっている。
 今のところ以下のような感じ。
 
+## init.toml
+```toml
+# =============================================================================
+# File        : init.toml
+# Author      : yukimemi
+# Last Change : 2019/04/07 23:32:34.
+# =============================================================================
+
+# All SpaceVim option below [option] section
+[options]
+autocomplete_method = "coc"
+automatic_update = false
+# autocomplete_method = "coc"
+bootstrap_after = "init#after"
+bootstrap_before = "init#before"
+checkinstall = true
+# colorscheme = "SpaceVim"
+colorscheme = "spring-night"
+colorscheme_bg = "dark"
+disabled_plugins = ["neopairs.vim"]
+enable_ale = true
+enable_cursorcolumn = false
+enable_cursorline = false
+enable_guicolors = true
+enable_language_specific_leader = false
+enable_neomake = false
+enable_os_fileformat_icon = true
+enable_statusline_mode = true
+enable_tabline_filetype_icon = true
+enable_vimfiler_welcome = false
+filemanager = "vimfiler"
+filetree_direction = "left"
+github_username = "yukimemi"
+relativenumber = false
+simple_mode = true
+statusline_separator = "arrow"
+windows_index_type = 1
+
+# layers. {{{1
+[[layers]]
+name = "autocomplete"
+auto-completion-return-key-behavior = "complete"
+auto-completion-tab-key-behavior = "smart"
+
+[[layers]]
+name = "shell"
+default_position = "bottom"
+default_height = 30
+
+[[layers]]
+name = "tools"
+[[layers]]
+name = "denite"
+[[layers]]
+name = "unite"
+[[layers]]
+name = "ctrlp"
+[[layers]]
+name = "VersionControl"
+[[layers]]
+name = "git"
+[[layers]]
+name = "github"
+[[layers]]
+name = "lsp"
+[[layers]]
+name = "sudo"
+[[layers]]
+name = "tmux"
+[[layers]]
+name = "operator"
+[[layers]]
+name = "tags"
+
+[[layers]]
+name = "format"
+enable = false
+
+# custom_plugins. {{{1
+[[custom_plugins]]
+name = "itchyny/vim-cursorword" # {{{2
+[[custom_plugins]]
+name = "itchyny/vim-parenmatch" # {{{2
+hook_add = '''
+source $SPACE_VIM/rc/vim-parenmatch.vim
+'''
+[[custom_plugins]]
+name = "rhysd/vim-color-spring-night" # {{{2
+[[custom_plugins]]
+name = "kaneshin/ctrlp-filetype" # {{{2
+on_cmd = ["CtrlPFiletype"]
+[[custom_plugins]]
+name = "kaneshin/ctrlp-memolist" # {{{2
+on_cmd = ["CtrlPMemolist"]
+[[custom_plugins]]
+name = "mattn/ctrlp-launcher" # {{{2
+on_cmd = ["CtrlPLauncher"]
+[[custom_plugins]]
+name = "ompugao/ctrlp-history" # {{{2
+on_cmd = ["CtrlPCmdHistory"]
+[[custom_plugins]]
+name = "tyru/capture.vim" # {{{2
+on_cmd = ["Capture"]
+[[custom_plugins]]
+name = "vim-scripts/autodate.vim" # {{{2
+hook_add = '''
+source $SPACE_VIM/rc/autodate.vim
+'''
+[[custom_plugins]]
+name = "glidenote/memolist.vim" # {{{2
+on_cmd = ["MemoList", "MemoNew", "MemoGrep"]
+hook_add = '''
+source $SPACE_VIM/rc/memolist.vim
+'''
+[[custom_plugins]]
+name = "kana/vim-operator-replace" # {{{2
+depends = "vim-operator-user"
+on_map = "<Plug>(operator-replace"
+hook_add = '''
+source $SPACE_VIM/rc/vim-operator-replace.vim
+'''
+[[custom_plugins]]
+name = "haya14busa/vim-asterisk" # {{{2
+on_map = "<Plug>(asterisk-"
+[[custom_plugins]]
+name = "osyo-manga/vim-anzu" # {{{2
+on_map = "<Plug>(anzu-"
+[[custom_plugins]]
+name = "haya14busa/is.vim" # {{{2
+depends = ["haya14busa/vim-asterisk", "osyo-manga/vim-anzu"]
+on_map = "<Plug>(is-"
+hook_add = '''
+source $SPACE_VIM/rc/is.vim
+'''
+[[custom_plugins]]
+name = "sheerun/vim-polyglot" # {{{2
+hook_add = '''
+source $SPACE_VIM/rc/vim-polyglot.vim
+'''
+[[custom_plugins]]
+name = "haya14busa/dein-command.vim" # {{{2
+on_cmd = "Dein"
+[[custom_plugins]]
+name = "rhysd/committia.vim" # {{{2
+[[custom_plugins]]
+name = "iamcco/markdown-preview.nvim" # {{{2
+depends = "open-browser.vim"
+on_ft = "markdown"
+on_cmd = "MarkdownPreview"
+build = "cd app & yarn install"
+# hook_post_update = '''
+# call dein#source('markdown-preview.nvim')
+# call mkdp#util#install()
+# '''
+[[custom_plugins]]
+name = "dhruvasagar/vim-table-mode" # {{{2
+on_ft = "markdown"
+[[custom_plugins]]
+name = "thinca/vim-qfreplace" # {{{2
+on_ft = ["quickfix", "qf"]
+[[custom_plugins]]
+name = "qpkorr/vim-renamer" # {{{2
+on_cmd = "Renamer"
+hook_add = '''
+source $SPACE_VIM/rc/vim-renamer.vim
+'''
+```
+
 ## init.vim
 ```vim
 " =============================================================================
