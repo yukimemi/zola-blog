@@ -1,6 +1,8 @@
 # The URL the site will be built for
 base_url = "https://yukimemi.netlify.com"
 
+title = "yukimemi's blog"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -12,7 +14,6 @@ highlight_code = true
 build_search_index = true
 
 # theme
-# theme = "after-dark"
 theme = "even"
 taxonomies = [
   # You can enable/disable RSS

@@ -9,11 +9,15 @@ jobs:
 
       - run:
           name: Install git and zip
-          command: apt install -y git zip
+          command: apk add --no-cache git zip
 
       - run:
           name: Git clone theme
           command: git clone https://github.com/getzola/even themes/even
+
+      - run:
+          name: Which zola
+          command: which zola
 
       - run:
           name: Build with zola

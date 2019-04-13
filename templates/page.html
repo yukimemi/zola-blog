@@ -1,4 +1,23 @@
 {% extends "even/templates/page.html" %}
+{% import "even/templates/post_macros.html" as post_macros %}
+
+{% block title %}{{ config.title }} - {{ post_macros::title(page=page) }}{% endblock title %}
+
+{% block extra_head %}
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ae81d07106d8fde"></script>
+{% endblock extra_head %}
+
+
+{% block content %}
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_inline_share_toolbox"></div>
+
+{{ super() }}
+
+{% endblock content %}
+
 
 {% block page_before_footer %}
 
@@ -26,3 +45,4 @@
 
 
 {% endblock page_before_footer %}
+
