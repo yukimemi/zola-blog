@@ -2,14 +2,14 @@ version: 2
 jobs:
   build:
     docker:
-      - image: j1mc/docker-zola
+      - image: yukimemi/zola-blog
 
     steps:
       - checkout
 
       - run:
-          name: Install git and zip
-          command: apk add --no-cache git zip
+          name: Install zip and curl
+          command: apt install -y zip curl
 
       - run:
           name: Git clone theme
