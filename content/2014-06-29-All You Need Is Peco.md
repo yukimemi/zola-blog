@@ -19,6 +19,7 @@ homebrewでgoをインストール。
 ```sh
 $ brew install go --cross-compile-common
 ```
+<!-- more -->
 
 `.zshenv` に以下を記載。
 ```sh

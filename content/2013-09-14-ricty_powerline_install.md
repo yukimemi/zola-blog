@@ -20,6 +20,7 @@ tags = [ "font", "ricty", "homebrew" ]
 のインストールと Powerline
 のパッチ当てをまた簡単に出来るようにスクリプトとしてまとめた。
 
+<!-- more -->
 ```sh
 #!/bin/sh
 

@@ -10,6 +10,7 @@ tags = [ "powershell", "vim", "vim-plugin" ]
 
 powershell script を vim で書くためのプラグイン
 
+<!-- more -->
 ```vim
 NeoBundleLazy 'PProvost/vim-ps1', {
       \   'autoload' : {'filetypes': ['ps1']}

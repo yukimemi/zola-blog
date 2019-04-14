@@ -18,7 +18,7 @@ tags = [ "golang", "git" ]
 
 (バイナリファイルもそのうち用意する)
 
-
+<!-- more -->
 ```sh
 $ go get github.com/yukimemi/gsr
 ```

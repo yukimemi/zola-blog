@@ -20,6 +20,8 @@ bitbucket では、 github と同じように、
 
 ### リポジトリの作成
 
+<!-- more -->
+
 bitbucket で、 \<ユーザー名\>.bitbucket.org
 というリポジトリを作る。 僕の場合は、 yukimemi.bitbucket.org
 

@@ -15,6 +15,7 @@ tags = [ "zsh", "autosuggestions", "plugin" ]
 ```zsh
 zplug "zsh-users/zsh-autosuggestions"
 ```
+<!-- more -->
 
 あとは、表示された補完を決定するキーの設定を追加。
 ちなみにデフォルトだと、右矢印が割り当てられてる模様。

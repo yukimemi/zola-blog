@@ -13,6 +13,7 @@ tags = [ "haskell", "git" ]
 
 今度は、 haskell で同じようなのを書いてみた。
 
+<!-- more -->
 ```haskell
 import System.IO
 import System.Process

@@ -33,6 +33,7 @@ FLAGS:
 ARGS:
     <input>    Input directory. default is $(ghq root) or '.'
 ```
+<!-- more -->
 
 使い方は、だいたい [以前の投稿](http://yukimemi.github.io/post/2017-03-19_git-status-recurse/) で書いた `golang` 版と同じ。
 

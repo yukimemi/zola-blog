@@ -18,6 +18,7 @@ MacBook AirにUbuntu 15.04をインストールした。
 ```sh
 $ vim ~/.config/autostart/synclient.desktop
 ```
+<!-- more -->
 
 内容は以下の通り
 

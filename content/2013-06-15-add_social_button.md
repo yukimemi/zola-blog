@@ -22,6 +22,7 @@ layout.html は全体？ page.html
 ```sh
 $ vim _templates/layout.html
 ```
+<!-- more -->
 
 中身はこんな感じ。
 

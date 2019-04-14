@@ -20,6 +20,7 @@ mosh というmobile-shelllを導入してみたところ、「No such file or d
 ```sh
 $ brew install mosh
 ```
+<!-- more -->
 
 昔は ```mobile-shelll``` だったみたいだけど、今は ```mosh``` でインストール出来る。
 クライアント側とサーバ側両方インストールしておく必要あり。

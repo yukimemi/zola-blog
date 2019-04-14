@@ -14,6 +14,8 @@ tags = [ "mac", "ansible" ]
 
 [yukimemi/ansible-playbook](https://github.com/yukimemi/ansible-playbook)
 
+<!-- more -->
+
 参考記事だと、ansible-galaxyで、事前にhomebrewパッケージをインストールしなきゃいけない
 みたいに書いてあるけど、実際は不要だった。
 

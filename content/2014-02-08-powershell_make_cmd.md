@@ -19,6 +19,7 @@ vim で powershell を書く時の設定です。
 ```vim
 NeoBundleLazy 'PProvost/vim-ps1'
 ```
+<!-- more -->
 
 それから、 vim から実行するために、 quickrun
 を入れます。(これは定番ですね！)

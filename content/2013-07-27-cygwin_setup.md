@@ -21,6 +21,7 @@ cygwin のインストールは setup.exe というインストーラーがあ�
 ```dos
 setup-x86.exe -q -d -D -L -s http://ftp.jaist.ac.jp/pub/cygwin/ -l "%USERPROFILE%\.cygwin" -R c:\cygwin -P gcc,git,git-completion,git-svn,make,vim,wget,ruby,screen,zsh,subversion
 ```
+<!-- more -->
 
 それぞれのオプションの意味は以下の通り
 

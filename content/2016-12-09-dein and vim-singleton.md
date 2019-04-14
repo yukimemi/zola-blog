@@ -23,6 +23,8 @@ vim の clientserver 機能を使って、ファイルをすでに起動して�
 
 そこで教えてもらった通り、 `hook_add` から `hook_source` に変更。
 
+<!-- more -->
+
 こんな感じ。
 
 - dein.toml

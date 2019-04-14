@@ -16,6 +16,7 @@ tags = [ "hugo", "highlight" ]
 
 ヘッダーに以下3行を追加するだけ。(スタイルは `onedark` を使用)
 
+<!-- more -->
 ```html
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/styles/atom-one-dark.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>

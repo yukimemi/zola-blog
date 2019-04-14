@@ -24,6 +24,7 @@ $ npm install -g gulp
 
 まず、 [direnv](https://github.com/zimbatm/direnv) はgoを使うので、goをインストールしておく。
 
+<!-- more -->
 ```sh
 $ brew install go --cross-compile-common
 ```

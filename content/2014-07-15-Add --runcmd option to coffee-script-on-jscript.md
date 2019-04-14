@@ -31,6 +31,7 @@ Usage: coffee [options] path/to/script.coffee
   -w, --watch        watch scripts for changes, and recompile
   -r, --runcmd       run the compiled scripts as JScript
 ```
+<!-- more -->
 
 最後の行のやつ。
 

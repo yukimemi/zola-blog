@@ -20,6 +20,7 @@ if [ -z $TMUX ]; then
   tmux attach -d || tmux
 fi
 ```
+<!-- more -->
 
 ##### 参考:
 

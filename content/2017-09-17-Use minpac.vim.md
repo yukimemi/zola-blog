@@ -13,6 +13,7 @@ vim や neovim で標準で用意されている `package` 機能。まだ一度
 使ってみるに当たって、 [k-takata/minpac](https://github.com/k-takata/minpac) が
 便利そうなので、利用してみた。
 
+<!-- more -->
 ```vim
 " Plugin:
 " Use minpac. {{{1

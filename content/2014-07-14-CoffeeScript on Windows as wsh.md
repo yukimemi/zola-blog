@@ -19,12 +19,11 @@ thincaさん作成のcoffeescriptコンパイラ。Windowsで動く。nodejsも�
 ```sh
 > ghq get https://github.com/thinca/coffee-script-on-jscript.git
 ```
-
 or
-
 ```sh
 > git clone https://github.com/thinca/coffee-script-on-jscript.git
 ```
+<!-- more -->
 
 ghq があるなら上で。
 

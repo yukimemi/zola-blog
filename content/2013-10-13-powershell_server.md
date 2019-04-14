@@ -14,6 +14,8 @@ tags = [ "powershell", "ssh" ]
 
 僕はかたちから入るタイプなので、まずは環境構築から。
 
+<!-- more -->
+
 理想としては、 powershell のスクリプトを書いたり実行する
 のは普段使っているMacから行いたい。
 そこで、MacからWindowsへsshして、Macのターミナルから powershell

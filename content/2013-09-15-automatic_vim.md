@@ -16,6 +16,7 @@ tags = [ "vim", "vim-automatic" ]
 
 そこで、いろんなサイトを参考にやってみた。
 
+<!-- more -->
 ```vim
 " ESC2回押しで検索ハイライトを消去
 autocm MyAutoCmd VimEnter,WinEnter,WinLeave * nmap <silent> <ESC><ESC> :<C-u>nohlsearch<CR><Plug>(anzu-clear-search-status)

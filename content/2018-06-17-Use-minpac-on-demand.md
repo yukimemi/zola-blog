@@ -10,7 +10,9 @@ tags = [ "vim", "minpac" ]
 
 vim でパッケージマネージャといえば、 [Shougo/dein.vim](https://github.com/Shougo/dein.vim) が有名だけど、それ以外でも、 [k-takata/minpac](https://github.com/k-takata/minpac) もあまり知られてないかもしれないけどシンプルで使いやすい。
 
-前回の [記事](/Use%20minpac.vim/) では、 vim 起動後にプラグインを遅延で読み込む、というのをやったけど、それだけじゃなく、 dein みたいに、特定の Command 実行時、もしくは特定の FileType で必要に応じてロードする、っていうのをやってみようと思う。
+前回の [記事](/Use-minpac-vim/) では、 vim 起動後にプラグインを遅延で読み込む、というのをやったけど、それだけじゃなく、 dein みたいに、特定の Command 実行時、もしくは特定の FileType で必要に応じてロードする、っていうのをやってみようと思う。
+
+<!-- more -->
 
 vim では、前者の特定の Command 時にそのコマンドが定義されていなかったら・・・という autocmd のイベントが定義されている。( CmdUndefined )
 また、後者の特定の FileType も同様に autocmd のイベントが定義されている。 ( FileType )

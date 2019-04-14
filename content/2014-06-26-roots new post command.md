@@ -13,6 +13,7 @@ roots でも同じことがしたかったので、コマンドを作ってみ�
 
 +++
 
+<!-- more -->
 ```sh
 #!/bin/bash
 
@@ -28,7 +29,7 @@ postFile=${postsDir}/$(date +%Y-%m-%d)_${title}.jade
 cat << EOT >> "${postFile}"
 +++
 title = "${title}"
-date: "2019-04-07T23:08:47+09:00"
+date: "2019-04-14T10:24:17+09:00"
 layout: ../views/_single_post.jade
 +++
 

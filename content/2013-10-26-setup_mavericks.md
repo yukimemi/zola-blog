@@ -18,6 +18,7 @@ Mavericks がなんと無料で出たので、早速アップデートしまし�
 
 ### 1. github と bitbucket にsshキーを登録
 
+<!-- more -->
 ```sh
 $ ssh-keygen
   Generating public/private rsa key pair.

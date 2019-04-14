@@ -13,6 +13,7 @@ tags = [ "vim", "neovim", "denite" ]
 [dein](https://github.com/Shougo/dein.vim) を使って toml で設定。
 
 
+<!-- more -->
 ```toml
 # ==================== Denite ==================== {{{1
 [[plugins]]

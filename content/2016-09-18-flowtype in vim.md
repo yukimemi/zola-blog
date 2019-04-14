@@ -17,6 +17,7 @@ facebookが作っているらしく、 `typescript` と違って、既存のjava
 ```sh
 $ npm i -g flow-bin
 ```
+<!-- more -->
 
 `flowtype` 自体の説明は
 [型なき世界のためのflowtype入門 - Qiita](http://qiita.com/mizchi/items/95ee0101ac22e4b7b662)

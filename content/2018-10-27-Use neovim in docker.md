@@ -18,6 +18,8 @@ Docker の中で neovim を起動してやれば、どんな環境でも neovim 
 
 `Dockerfile` はこんな感じ。
 
+<!-- more -->
+
 ```Dockerfile
 FROM alpine:edge
 MAINTAINER yukimemi

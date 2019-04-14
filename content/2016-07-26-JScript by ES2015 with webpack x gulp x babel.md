@@ -33,6 +33,7 @@ $ tree -I node_modules
 ├── gulpfile.babel.js
 └── webpack.config.babel.js
 ```
+<!-- more -->
 
 いろいろインストール。(こんだけやったか定かじゃないけど・・・
 ```sh

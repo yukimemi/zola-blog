@@ -22,9 +22,12 @@ rootsは静的サイトジェネレーターなので、通常だとjadeの記�
 まず、追加するのにはbowerを使った。
 ちなみにローカルにインストールしたbowerを使う方法は、[前の記事](http://yukimemi.github.io/posts/2014-07-02_direnv%20for%20npm%20local%20commands.html) を参照。
 
+
 ```sh
 $ npm install bower --save-dev
 ```
+
+<!-- more -->
 
 事前準備として、bowerのコンポーネントがインストールされる先を変更しておく。
 

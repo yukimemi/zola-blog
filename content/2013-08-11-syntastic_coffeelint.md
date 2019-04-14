@@ -22,6 +22,7 @@ NeoBundle 'scrooloose/syntastic.git', {
             \   'unix': ['pip install pyflake', 'npm -g install coffeelint']
             \ }}
 ```
+<!-- more -->
 
 上記のように書いておけば、 Syntastic をインストールする時に自動で、
 pyflake と coffeelint をインストールしてくれる。 NeoBundle

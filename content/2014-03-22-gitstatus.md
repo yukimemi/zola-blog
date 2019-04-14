@@ -17,6 +17,7 @@ status」を実行するプログラムを書いてみた。
 ```sh
 $ gitstatus yukimemi
 ```
+<!-- more -->
 
 みたいにすると、「gitstatus」を実行したディレクトリ配下で、「git remote
 -v」に「yukimemi」が含まれるものを対象に、「git

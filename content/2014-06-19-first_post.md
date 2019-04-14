@@ -12,6 +12,8 @@ tags = [ "roots", "nodejs", "javascript" ]
 
 Markdown でもブログが書けるらしい。
 
+<!-- more -->
+
 移行しよかな。
 ライブリロードがあるのがいいね。
 

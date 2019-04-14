@@ -16,6 +16,7 @@ nvidiaのドライバ関係でいろいろ大変だったのでメモ。
 ```sh
 $ sudo dd if=./ubuntu-15.04-desktop-amd64.iso of=/dev/sdb bs=4M
 ```
+<!-- more -->
 
 ### Ubuntu インストール
 nvidiaのグラフィックドライバをインストールする場合、grubがefiモードじゃなくてbiosモードでインストールされる必要があるっぽい。

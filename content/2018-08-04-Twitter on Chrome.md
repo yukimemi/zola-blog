@@ -19,6 +19,7 @@ fish の 設定ファイル `config.fish` に以下を追加
 alias twitter "open -na 'Google Chrome' --args '--app=https://mobile.twitter.com'"
 alias tweetdeck "open -na 'Google Chrome' --args '--app=https://tweetdeck.com'"
 ```
+<!-- more -->
 
 これで、ブラウザと Twitter を同時に見れる。
 

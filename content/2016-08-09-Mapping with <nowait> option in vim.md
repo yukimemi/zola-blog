@@ -24,6 +24,7 @@ nnoremap <silent> <ESC><ESC> :<C-u>nohlsearch<CR>
 
 こんなマッピングをした場合。
 
+<!-- more -->
 ```vim
 au MyAutoCmd CmdwinEnter * nnoremap <silent><buffer> <ESC> :q<CR>
 ```

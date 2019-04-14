@@ -17,7 +17,7 @@ tags = [ "vim", "solarized", "colorscheme" ]
 [[plugins]]
 repo = 'lifepillar/vim-solarized8'
 ```
-
+<!-- more -->
 ```vim
 colorscheme solarized8_dark
 ```

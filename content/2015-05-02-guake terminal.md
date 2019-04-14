@@ -13,6 +13,7 @@ macでiTerm2を使っていたので、同じように使えるterminalがない
 ```sh
 $ sudo apt-get install guake
 ```
+<!-- more -->
 
 デフォルトでは、「F12」で起動する。
 

@@ -16,6 +16,7 @@ tags = [ "vim", "tmux", "iterm" ]
 
 は特になく、 `homebrew cask` でインストールすればそのまま `true color` が使えるらしい。
 
+<!-- more -->
 ```sh
 $ brew cask install iterm2
 ```

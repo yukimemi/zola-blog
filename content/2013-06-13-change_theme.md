@@ -18,6 +18,7 @@ Tinkererのテーマをカスタマイズしたいと思った。
 カスタマイズの方法は、まず元になるテーマである "modern5"
 をコピーしてくる。
 
+<!-- more -->
 ```sh
 $ mkdir -p _themes/mytheme
 $ cp -r ~/.virtualenvs/2.7.4/lib/python2.7/site-packages/tinkerer/themes/modern5/_themes/mytheme

@@ -26,6 +26,7 @@ rootsに限らず、静的サイトジェネレーターを使う場合はけっ
 ```sh
 $ wget https://github.com/X1011/git-directory-deploy/raw/master/deploy.sh && chmod +x deploy.sh
 ```
+<!-- more -->
 
 ### git-directory-deployの設定
 以下の部分を必要に応じて書き換え。

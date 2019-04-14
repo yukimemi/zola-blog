@@ -41,6 +41,7 @@ hook_add = '''
   nnoremap [Space]f :<C-u>Autoformat<CR>
 '''
 ```
+<!-- more -->
 
 上記設定で、かつ、 `js-beautify` を別途インストールする。
 

@@ -13,6 +13,7 @@ mongodb をいれてみた。
 ```sh
 $ brew install mongodb
 ```
+<!-- more -->
 
 これでインストール完了。簡単。
 

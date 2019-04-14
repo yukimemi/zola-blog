@@ -21,6 +21,8 @@ tags = [ "mac", "type", "tickeys" ]
 
 `Rust` で書かれてるらしい。
 
+<!-- more -->
+
 インストール方法は homebrew cask で一発。
 
 ```sh

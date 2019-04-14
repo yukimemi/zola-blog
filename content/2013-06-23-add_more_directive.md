@@ -15,6 +15,7 @@ Tinkererで「続きを読む」をいれる方法。
 ```python
 .. more::
 ```
+<!-- more -->
 
 以上！
 

@@ -14,10 +14,11 @@ vimperatorでcolorschemeを使う方法。
 
 
 ### リポジトリクローン
-`ghq` については、[この記事](http://yukimemi.github.io/post/2014-06-29_All%20You%20Need%20Is%20Peco/)で。
+`ghq` については、[この記事](/all-you-need-is-peco/)で。
 ```sh
 $ ghq get https://github.com/vimpr/vimperator-colors.git
 ```
+<!-- more -->
 
 ### シンボリックリンク
 ```sh

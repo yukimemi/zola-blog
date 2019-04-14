@@ -24,6 +24,7 @@ mac の場合は、 [homebrew](https://brew.sh/index_ja.html) があるから簡
 $ brew tap caskroom/fonts
 $ brew cask install font-hack-nerd-font
 ```
+<!-- more -->
 
 それから、 iTerm2 の設定から、インストールされた、 `Knack Nerd Font` を選択する。
 

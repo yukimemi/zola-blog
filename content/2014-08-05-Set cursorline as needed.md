@@ -14,6 +14,8 @@ tags = [ "vim", "cursorline", "vimrc" ]
 
 そこで、 Lingr のvim部屋で初めて質問してみた。
 
+<!-- more -->
+
 そしたらあっさりと答えを教えてもらえた。vimmerは思ってたよりこわくなかった。よかた。
 
 `<C-^>` では、 `WinEnter` イベントは発生しないが、 `BufEnter` イベントは発生するらしい。
