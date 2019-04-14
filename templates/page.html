@@ -1,7 +1,6 @@
 {% extends "even/templates/page.html" %}
-{% import "even/templates/post_macros.html" as post_macros %}
 
-{% block title %}{{ config.title }} - {{ post_macros::title(page=page) }}{% endblock title %}
+{% block title %}{{ config.title }} - {{ page.title }}{% endblock title %}
 
 {% block extra_head %}
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
