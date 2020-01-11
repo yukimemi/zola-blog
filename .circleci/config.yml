@@ -8,6 +8,10 @@ jobs:
       - checkout
 
       - run:
+          name: Update apt
+          command: apt update
+
+      - run:
           name: Install zip and curl
           command: apt install -y zip curl
 

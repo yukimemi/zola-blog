@@ -1,7 +1,7 @@
 +++
 title = "Use plugpac.vim"
 date = 2020-01-04T17:40:00+09:00
-draft = true
+draft = false
 [taxonomies]
 categories = [ "vim" ]
 tags = [ "vim", "neovim", "minpac", "plugpac" ]
