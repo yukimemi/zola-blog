@@ -7,6 +7,14 @@ categories = [ "vim" ]
 tags = [ "vim", "neovim", "minpac", "plugpac" ]
 +++
 
+`2020-01-12` プラグインの保存先に、 `~/.vim` でなく、 `~/.cache` を使用する設定を書きました。
+
+→ [yukimemi's blog - Use .cache directory for vim plugins](https://yukimemi.netlify.com/use-cache-directory-for-vim-plugins/)
+
+こっちのがいいかも。
+
+---
+
 [k-takata/minpac](https://github.com/k-takata/minpac) のラッパーとして、[bennyyip/plugpac.vim](https://github.com/bennyyip/plugpac.vim) ってのができてた。
 
 <!-- more -->
