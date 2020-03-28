@@ -47,3 +47,4 @@ background_color = "orange"
 logo_text = "YUKIMEMI"
 author = "yukimemi"
 use_full_hack_font = true
+default_language = "ja"

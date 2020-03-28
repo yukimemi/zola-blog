@@ -4,21 +4,20 @@
 
 {% block extra_head %}
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ae81d07106d8fde"></script>
+<!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ae81d07106d8fde"></script> -->
 {% endblock extra_head %}
 
 
-{% block content %}
-
-<!-- Go to www.addthis.com/dashboard to customize your tools -->
-<div class="addthis_inline_share_toolbox"></div>
+{% block header %}
 
 {{ super() }}
 
-{% endblock content %}
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!-- <div class="addthis_inline_share_toolbox"></div> -->
 
+{% endblock header %}
 
-{% block page_before_footer %}
+{% block footer %}
 
 <div id="disqus_thread"></div>
 <script>
@@ -42,6 +41,5 @@
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-
-{% endblock page_before_footer %}
-
+{{ super() }}
+{% endblock footer %}

@@ -1,3 +1,6 @@
 [build]
-  publish = "public"
-  command = "zola build"
+publish = "public"
+command = "git clone https://github.com/pawroman/zola-theme-terminimal.git themes/terminimal; zola build"
+
+[build.environment]
+ZOLA_VERSION = "0.10.1"
