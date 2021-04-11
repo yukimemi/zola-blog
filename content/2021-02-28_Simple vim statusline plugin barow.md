@@ -81,7 +81,6 @@ let g:barow = {
       \  },
       \  'modules': [
       \    [ 'barowGit#branch', 'BarowHint' ],
-      \    [ 'barowGit#branch', 'StatusLine' ],
       \    [ 'barowLSP#ale_status', 'StatusLine' ],
       \    [ 'barowLSP#coc_status', 'StatusLine' ],
       \    [ 'barowLSP#error', 'BarowError' ],
